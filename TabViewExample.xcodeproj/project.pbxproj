@@ -14,6 +14,8 @@
 		CECDBF6D2429642F00FA384F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECDBF6B2429642F00FA384F /* Main.storyboard */; };
 		CECDBF6F2429643300FA384F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECDBF6E2429643300FA384F /* Assets.xcassets */; };
 		CECDBF722429643300FA384F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECDBF702429643300FA384F /* LaunchScreen.storyboard */; };
+		CECDBF7A242968EB00FA384F /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDBF79242968EB00FA384F /* ThirdViewController.swift */; };
+		CECDBF7C24296B4900FA384F /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECDBF7B24296B4900FA384F /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CECDBF6E2429643300FA384F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CECDBF712429643300FA384F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CECDBF732429643300FA384F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECDBF79242968EB00FA384F /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		CECDBF7B24296B4900FA384F /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				CECDBF6E2429643300FA384F /* Assets.xcassets */,
 				CECDBF702429643300FA384F /* LaunchScreen.storyboard */,
 				CECDBF732429643300FA384F /* Info.plist */,
+				CECDBF79242968EB00FA384F /* ThirdViewController.swift */,
+				CECDBF7B24296B4900FA384F /* FourthViewController.swift */,
 			);
 			path = TabViewExample;
 			sourceTree = "<group>";
@@ -141,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CECDBF7C24296B4900FA384F /* FourthViewController.swift in Sources */,
 				CECDBF6A2429642F00FA384F /* SecondViewController.swift in Sources */,
 				CECDBF682429642F00FA384F /* FirstViewController.swift in Sources */,
+				CECDBF7A242968EB00FA384F /* ThirdViewController.swift in Sources */,
 				CECDBF642429642F00FA384F /* AppDelegate.swift in Sources */,
 				CECDBF662429642F00FA384F /* SceneDelegate.swift in Sources */,
 			);
